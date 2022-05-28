@@ -10,6 +10,17 @@
 *.userosscache
 *.sln.docstates
 
+##################################
+# My SoftUni folder specific...
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.xlsm
+###################################
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
