@@ -1,0 +1,62 @@
+.Darts {
+  height: 575px;
+  width: 575px;
+  position: relative;
+  margin: 0 auto; }
+  .Darts span {
+    display: block;
+    text-align: center;
+    padding-top: 6.75px;
+    font-size: 24px;
+    color: #FFFFFF; }
+  .Darts h2 {
+    text-align: center; }
+
+.Circle_10 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: #A52A2A;
+  height: 500px;
+  width: 500px;
+  left: 37.5px;
+  top: 37.5px; }
+
+.Circle_20 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: #0000FF;
+  height: 425px;
+  width: 425px;
+  left: 75px;
+  top: 75px; }
+
+.Circle_30 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ADFF2F;
+  height: 350px;
+  width: 350px;
+  left: 112.5px;
+  top: 112.5px; }
+
+.Circle_50 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FFFF00;
+  height: 275px;
+  width: 275px;
+  left: 150px;
+  top: 150px; }
+
+.Circle_100 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+  left: 187.5px;
+  top: 187.5px; }
+  .Circle_100 span {
+    padding-top: 88px; }
+
+/*# sourceMappingURL=styles_scss.css.map */

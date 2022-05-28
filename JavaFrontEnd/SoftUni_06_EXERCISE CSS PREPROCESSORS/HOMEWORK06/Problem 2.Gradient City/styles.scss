@@ -1,0 +1,240 @@
+@mixin gradient_bg($direction: to bottom, $color1: rgba(0,0,0,0.5) 0%, $color2: rgba(0,0,0,0.0) 100%){
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%);
+  background: linear-gradient($direction, $color1, $color2);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00000000',GradientType=0 );
+//ellipse at center
+}
+
+@mixin gradient_rad($color1: rgba(0,0,0,0.5) 0%, $color2: rgba(0,0,0,0.0) 100%){
+  background: radial-gradient($color1, $color2);
+}
+
+$Nav-Buttons-Color: silver;
+$Gradient-Box-Color-1: purple;
+$Gradient-Box-Color-2: blue;
+$Gradient-Box-Color-3: green;
+$Gradient-Box-Color-4: yellow;
+$Gradient-Box-Color-5: orange;
+$Gradient-Box-Color-6: red;
+
+body{
+  @include gradient_bg;
+}
+
+#wrapper{
+  height: 1600px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  color: darkgrey;
+  text-align: center;
+  //border: 1px double $Nav-Buttons-Color;
+
+  header{
+    border: 3px solid $Nav-Buttons-Color;
+    margin: 10px;
+
+    nav{
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        //border: 1px double $Nav-Buttons-Color;
+
+        li{
+          padding: 5px 15px;
+
+          a{
+            border: 1px double $Nav-Buttons-Color;
+            color: $Nav-Buttons-Color;
+            height: 35px;
+            width: 100px;
+            display: block;
+            line-height: 35px;
+            text-align: center;
+
+
+            &:hover{
+              @include gradient_bg(to bottom, 1C1C1C, #CECECE);
+              color: white;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  section{
+    &.linear{
+      border: 3px solid $Nav-Buttons-Color;
+      margin: 10px;
+
+      header{
+        border: none;
+        //text-decoration: underline;
+        h1{
+          text-decoration: underline;
+        }
+      }
+
+      article{
+
+        border: 3px solid $Nav-Buttons-Color;
+        margin: 10px;
+        text-decoration: none;
+
+        .innerContainer{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+
+          div {
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+
+          }
+        }
+
+        &:nth-of-type(1){
+          .purple{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-1, white)
+          }
+          .blue{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-2, white)
+          }
+          .green{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-3, white)
+          }
+          .yellow{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-4, white)
+          }
+          .orange{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-5, white)
+          }
+          .red{
+            @include gradient_bg(to bottom, $Gradient-Box-Color-6, white)
+          }
+        }
+
+        &:nth-of-type(2){
+          .purple{
+            @include gradient_bg(to right, $Gradient-Box-Color-1, white)
+          }
+          .blue{
+            @include gradient_bg(to right, $Gradient-Box-Color-2, white)
+          }
+          .green{
+            @include gradient_bg(to right, $Gradient-Box-Color-3, white)
+          }
+          .yellow{
+            @include gradient_bg(to right, $Gradient-Box-Color-4, white)
+          }
+          .orange{
+            @include gradient_bg(to right, $Gradient-Box-Color-5, white)
+          }
+          .red{
+            @include gradient_bg(to right, $Gradient-Box-Color-6, white)
+          }
+        }
+
+        &:nth-of-type(3){
+          .purple{
+            @include gradient_bg(135deg, $Gradient-Box-Color-1, white)
+          }
+          .blue{
+            @include gradient_bg(135deg, $Gradient-Box-Color-2, white)
+          }
+          .green{
+            @include gradient_bg(135deg, $Gradient-Box-Color-3, white)
+          }
+          .yellow{
+            @include gradient_bg(135deg, $Gradient-Box-Color-4, white)
+          }
+          .orange{
+            @include gradient_bg(135deg, $Gradient-Box-Color-5, white)
+          }
+          .red{
+            @include gradient_bg(135deg, $Gradient-Box-Color-6, white)
+          }
+        }
+
+      }
+    }
+
+    &.radial{
+
+      border: 3px solid $Nav-Buttons-Color;
+      margin: 10px;
+
+      header{
+        border: none;
+        text-decoration: underline;
+      }
+
+      article{
+
+        border: 3px solid $Nav-Buttons-Color;
+        margin: 10px;
+        text-decoration: none;
+
+        .innerContainer{
+          display: flex;
+          justify-content: center;
+          margin-top: 10px;
+          margin-bottom: 10px;
+
+          div {
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+
+          }
+        }
+
+        &:nth-of-type(1){
+          .purple{
+            @include gradient_rad($Gradient-Box-Color-1, white)
+          }
+          .blue{
+            @include gradient_rad($Gradient-Box-Color-2, white)
+          }
+          .green{
+            @include gradient_rad($Gradient-Box-Color-3, white)
+          }
+          .yellow{
+            @include gradient_rad($Gradient-Box-Color-4, white)
+          }
+          .orange{
+            @include gradient_rad($Gradient-Box-Color-5, white)
+          }
+          .red{
+            @include gradient_rad($Gradient-Box-Color-6, white)
+          }
+        }
+
+      }
+    }
+  }
+
+  footer{
+    justify-content: center;
+    border: 3px solid $Nav-Buttons-Color;
+    margin: 10px;
+
+    h3{
+      text-decoration: underline;
+    }
+
+    ul{
+      list-style: none;
+    }
+  }
+}
+
+a{
+  text-decoration: none;
+  color: $Nav-Buttons-Color;
+}

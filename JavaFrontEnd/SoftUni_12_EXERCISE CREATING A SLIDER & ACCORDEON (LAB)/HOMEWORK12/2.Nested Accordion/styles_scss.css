@@ -1,0 +1,22 @@
+body {
+  font-family: "Times New Roman"; }
+  body h2 {
+    color: brown;
+    margin-left: 2%; }
+
+div .card {
+  border: none; }
+  div .card .card-header {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px) calc(.25rem - 1px);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: brown; }
+    div .card .card-header a {
+      color: white; }
+  div .card .card-body {
+    color: brown; }
+    div .card .card-body ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+
+/*# sourceMappingURL=styles_scss.css.map */

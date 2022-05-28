@@ -1,0 +1,54 @@
+$main-color: 5px solid red;
+$pixels: 24px;
+
+@mixin pesho{
+  border-radius: 0;
+  width: 500px;
+}
+
+@mixin button-style{
+  border-radius: 25px;
+  background: deepskyblue;
+  color: purple;
+  width: 200px;
+  height: 200px;
+  &:hover{
+    background: white;
+    @include pesho;
+  }
+}
+
+main{
+  border: $main-color;
+}
+
+body{
+  background: lightgrey;
+}
+
+section{
+  border: 2px solid blue;
+  div{
+    border: 3px solid yellow;
+    color: white;
+    font-size: $pixels;
+    ul{
+      border: 1px dashed green;
+      li{
+        color: blue;
+        text-transform: uppercase;
+        a{
+          text-decoration: none;
+          &:hover{
+            background: greenyellow;
+          }
+        }
+      }
+    }
+  }
+
+  button{
+    @include button-style;
+  }
+
+}

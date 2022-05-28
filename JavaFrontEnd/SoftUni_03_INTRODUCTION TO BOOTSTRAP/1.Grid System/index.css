@@ -1,0 +1,7 @@
+/*div {
+    text-align: center;
+}*/
+
+.row div{
+    border: 3px solid lightgreen;
+}

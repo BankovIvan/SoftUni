@@ -1,0 +1,33 @@
+main {
+  border: 5px solid red; }
+
+body {
+  background: lightgrey; }
+
+section {
+  border: 2px solid blue; }
+  section div {
+    border: 3px solid yellow;
+    color: white;
+    font-size: 24px; }
+    section div ul {
+      border: 1px dashed green; }
+      section div ul li {
+        color: blue;
+        text-transform: uppercase; }
+        section div ul li a {
+          text-decoration: none; }
+          section div ul li a:hover {
+            background: greenyellow; }
+  section button {
+    border-radius: 25px;
+    background: deepskyblue;
+    color: purple;
+    width: 200px;
+    height: 200px; }
+    section button:hover {
+      background: white;
+      border-radius: 0;
+      width: 500px; }
+
+/*# sourceMappingURL=style.css.map */

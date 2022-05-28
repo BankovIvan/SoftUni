@@ -1,0 +1,84 @@
+$Circle_10_Color: #A52A2A;       //Brown
+$Circle_20_Color: #0000FF;       //Blue
+$Circle_30_Color: #ADFF2F;       //Green
+$Circle_50_Color: #FFFF00;       //Yellow
+$Circle_100_Color: #FF0000;       //Red
+
+$Circle_Height: 500px;
+$Circle_Width: 500px;
+$Circle_Aspect_Ratio: 0.15;
+$Circle_Font_Size: 24px;
+
+@mixin Circle_Common_Settings{
+  border-radius: 50%;
+  //color: #FFFFFF;
+  position: absolute;
+}
+
+.Darts{
+  height: $Circle_Height * (1 + $Circle_Aspect_Ratio); //1.15
+  width: $Circle_Width * (1 + $Circle_Aspect_Ratio);
+  position: relative;
+  margin: 0 auto;
+
+  span{
+    display: block;
+    text-align: center;
+    padding-top: (($Circle_Height * $Circle_Aspect_Ratio / 2) - $Circle_Font_Size) / 2;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+
+  h2{
+    text-align: center;
+  }
+}
+
+.Circle_10{
+  @include Circle_Common_Settings;
+  background-color: $Circle_10_Color;
+  height: $Circle_Height;
+  width: $Circle_Width;
+  left: $Circle_Width * $Circle_Aspect_Ratio * (1 / 2); //0.075
+  top: $Circle_Height * $Circle_Aspect_Ratio * (1 / 2);
+}
+
+.Circle_20{
+  @include Circle_Common_Settings;
+  background-color: $Circle_20_Color;
+  height: $Circle_Height * (1 - ($Circle_Aspect_Ratio * 1)); //0.85
+  width: $Circle_Width * (1 - ($Circle_Aspect_Ratio * 1));
+  left: $Circle_Width * $Circle_Aspect_Ratio * (2 / 2); //0.15
+  top: $Circle_Height * $Circle_Aspect_Ratio * (2 / 2);
+}
+
+.Circle_30{
+  @include Circle_Common_Settings;
+  background-color: $Circle_30_Color;
+  height: $Circle_Height * (1 - ($Circle_Aspect_Ratio * 2)); //0.70
+  width: $Circle_Width * (1 - ($Circle_Aspect_Ratio * 2));
+  left: $Circle_Width * $Circle_Aspect_Ratio * (3 / 2); //0.225
+  top: $Circle_Height * $Circle_Aspect_Ratio * (3 / 2);
+}
+
+.Circle_50{
+  @include Circle_Common_Settings;
+  background-color: $Circle_50_Color;
+  height: $Circle_Height * (1 - ($Circle_Aspect_Ratio * 3)); //0.55
+  width: $Circle_Width * (1 - ($Circle_Aspect_Ratio * 3));
+  left: $Circle_Width * $Circle_Aspect_Ratio * (4 / 2); //0.300
+  top: $Circle_Height * $Circle_Aspect_Ratio * (4 / 2);
+}
+
+.Circle_100{
+  @include Circle_Common_Settings;
+  background-color: $Circle_100_Color;
+  height: $Circle_Height * (1 - ($Circle_Aspect_Ratio * 4)); //0.40
+  width: $Circle_Width * (1 - ($Circle_Aspect_Ratio * 4));
+  left: $Circle_Width * $Circle_Aspect_Ratio * (5 / 2); //0.375
+  top: $Circle_Height * $Circle_Aspect_Ratio * (5 / 2);
+
+  span{
+    padding-top: (($Circle_Height * (1 - ($Circle_Aspect_Ratio * 4))) - $Circle_Font_Size) / 2;   //Overrides .Darts Span Settings
+  }
+}

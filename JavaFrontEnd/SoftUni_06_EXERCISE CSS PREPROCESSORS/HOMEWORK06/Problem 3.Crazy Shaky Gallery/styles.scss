@@ -1,0 +1,144 @@
+@mixin pic-size{
+  position: absolute;
+  height: 300px;
+  width: 200px;
+
+}
+
+@keyframes animate-rotate{
+  0%{
+    transform:rotate(0deg);
+    z-index: 1000;
+  }
+  30%{
+    top:150px;
+    left: 150px;
+    height: 490px;
+    width: 360px;
+    transform:rotate(0deg);
+  }
+  60%{
+    top:150px;
+    left: 150px;
+    height: 490px;
+    width: 360px;
+    transform:rotate(720deg);
+    z-index: 1000;
+  }
+  90%{
+    transform:rotate(720deg);
+    z-index: 1000;
+  }
+  100%{
+    transform:rotate(720deg);
+    z-index: auto;
+  }
+}
+
+@keyframes animate-shake{
+  0%{transform:rotate(0deg);}
+  25%{transform:rotate(-4deg);}
+  50%{transform:rotate(0deg);}
+  75%{transform:rotate(4deg);}
+  100%{transform:rotate(0deg);}
+}
+
+body{
+  background-color: darkgray;
+}
+
+main{
+  position: absolute;
+  height: 940px;
+  width: 640px;
+  top: 10px;
+  left: 10px;
+  border-style: outset;
+  border-color: silver;
+  border-radius: 1%;
+  background-color: gray;
+
+  a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  a:focus{
+    //background-color: black;
+    animation-name: animate-rotate;
+    animation-duration: 2s;
+    //animation-delay: 2s;
+    animation-iteration-count: 1;
+    }
+
+  a:hover {
+    //background-color: white;
+    animation-name: animate-shake;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+}
+
+.PIC1{
+  @include pic-size;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+}
+
+.PIC2{
+  @include pic-size;
+  top: 10px;
+  left: 220px;
+  background-color: green;
+}
+
+.PIC3{
+  @include pic-size;
+  top: 10px;
+  left: 430px;
+  background-color: blue;
+}
+
+.PIC4{
+  @include pic-size;
+  top: 320px;
+  left: 10px;
+  background-color: cyan;
+}
+
+.PIC5{
+  @include pic-size;
+  top: 320px;
+  left: 220px;
+  background-color: magenta;
+}
+
+.PIC6{
+  @include pic-size;
+  top: 320px;
+  left: 430px;
+  background-color: violet;
+}
+
+.PIC7{
+  @include pic-size;
+  top: 630px;
+  left: 10px;
+  background-color: yellow;
+}
+
+.PIC8{
+  @include pic-size;
+  top: 630px;
+  left: 220px;
+  background-color: orange;
+}
+
+.PIC9{
+  @include pic-size;
+  top: 630px;
+  left: 430px;
+  background-color: brown;
+}
+

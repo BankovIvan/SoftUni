@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1 – Shooting Range", "Problem 1 – Shooting Range\Problem 1 – Shooting Range.csproj", "{FDCEE578-432E-4B90-AF11-A4FA7204B405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDCEE578-432E-4B90-AF11-A4FA7204B405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCEE578-432E-4B90-AF11-A4FA7204B405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCEE578-432E-4B90-AF11-A4FA7204B405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCEE578-432E-4B90-AF11-A4FA7204B405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79FFDCE4-2F1E-4279-AA7C-71CC097B0465}
+	EndGlobalSection
+EndGlobal

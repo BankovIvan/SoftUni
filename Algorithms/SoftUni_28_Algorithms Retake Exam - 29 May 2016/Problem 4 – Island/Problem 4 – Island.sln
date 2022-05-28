@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4 – Island", "Problem 4 – Island\Problem 4 – Island.csproj", "{3ECB5A21-E72A-4B65-A0B1-6E3A7A0AAF6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ECB5A21-E72A-4B65-A0B1-6E3A7A0AAF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECB5A21-E72A-4B65-A0B1-6E3A7A0AAF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECB5A21-E72A-4B65-A0B1-6E3A7A0AAF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECB5A21-E72A-4B65-A0B1-6E3A7A0AAF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF381A53-436C-4050-AFF9-97FD23D1C600}
+	EndGlobalSection
+EndGlobal
