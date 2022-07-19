@@ -19,6 +19,7 @@
 *.xls
 *.xlsx
 *.xlsm
+*.zip
 ###################################
 
 # User-specific files (MonoDevelop/Xamarin Studio)
