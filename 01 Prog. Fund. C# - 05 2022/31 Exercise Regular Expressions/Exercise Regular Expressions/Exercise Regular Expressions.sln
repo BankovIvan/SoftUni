@@ -5,15 +5,23 @@ VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 Furniture", "01 Furniture\01 Furniture.csproj", "{47A5C2E9-99FA-42E7-8768-3E4484FF4323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Race", "02 Race\02 Race.csproj", "{D740C13C-8F22-4029-BAA4-1D1AC22135BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 Race", "02 Race\02 Race.csproj", "{D740C13C-8F22-4029-BAA4-1D1AC22135BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 SoftUni Bar Income", "03 SoftUni Bar Income\03 SoftUni Bar Income.csproj", "{E70B5245-F05C-4305-B941-3F318B2E6ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 SoftUni Bar Income", "03 SoftUni Bar Income\03 SoftUni Bar Income.csproj", "{E70B5245-F05C-4305-B941-3F318B2E6ED9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Star Enigma", "05 Star Enigma\04 Star Enigma.csproj", "{32E0DEA5-56EE-4D05-BA90-823650233977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04 Star Enigma", "05 Star Enigma\04 Star Enigma.csproj", "{32E0DEA5-56EE-4D05-BA90-823650233977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Nether Realms", "05 Nether Realms\05 Nether Realms.csproj", "{107A7B17-21E5-4321-BBDE-02245D77F480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05 Nether Realms", "05 Nether Realms\05 Nether Realms.csproj", "{107A7B17-21E5-4321-BBDE-02245D77F480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Extract Emails", "06 Extract Emails\06 Extract Emails.csproj", "{940602DC-323F-4ACE-B5A8-164B0FA9452F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06 Extract Emails", "06 Extract Emails\06 Extract Emails.csproj", "{940602DC-323F-4ACE-B5A8-164B0FA9452F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01 Winning Ticket", "M01 Winning Ticket\M01 Winning Ticket.csproj", "{7F9777EA-3BFA-4FCE-94D4-4F4418DBC8B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02 Rage Quit", "M02 Rage Quit\M02 Rage Quit.csproj", "{565AFC6F-3D40-4759-A6BD-603AD0306F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03 Post Office", "M03 Post Office\M03 Post Office.csproj", "{147BB78F-879B-4913-8BF7-E0B50763DE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04 Santa Secret Help", "M04 Santa Secret Help\M04 Santa Secret Help.csproj", "{46D91034-618E-4ACA-803D-68FBDFD9854B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{940602DC-323F-4ACE-B5A8-164B0FA9452F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940602DC-323F-4ACE-B5A8-164B0FA9452F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940602DC-323F-4ACE-B5A8-164B0FA9452F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F9777EA-3BFA-4FCE-94D4-4F4418DBC8B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9777EA-3BFA-4FCE-94D4-4F4418DBC8B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9777EA-3BFA-4FCE-94D4-4F4418DBC8B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9777EA-3BFA-4FCE-94D4-4F4418DBC8B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565AFC6F-3D40-4759-A6BD-603AD0306F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565AFC6F-3D40-4759-A6BD-603AD0306F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565AFC6F-3D40-4759-A6BD-603AD0306F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565AFC6F-3D40-4759-A6BD-603AD0306F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147BB78F-879B-4913-8BF7-E0B50763DE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147BB78F-879B-4913-8BF7-E0B50763DE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147BB78F-879B-4913-8BF7-E0B50763DE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147BB78F-879B-4913-8BF7-E0B50763DE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D91034-618E-4ACA-803D-68FBDFD9854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D91034-618E-4ACA-803D-68FBDFD9854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D91034-618E-4ACA-803D-68FBDFD9854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D91034-618E-4ACA-803D-68FBDFD9854B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
