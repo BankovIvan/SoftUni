@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console) 03_Heroes_of_Code_and_Logic_VII",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Heroes_of_Code_and_Logic_VII",
+            "program": "${workspaceFolder}/03_Heroes_of_Code_and_Logic_VII/bin/Debug/net6.0/03_Heroes_of_Code_and_Logic_VII.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Heroes_of_Code_and_Logic_VII",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (console) 02_Emoji_Detector",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Emoji_Detector",
+            "program": "${workspaceFolder}/02_Emoji_Detector/bin/Debug/net6.0/02_Emoji_Detector.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Emoji_Detector",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (console) 01_Activation_Keys",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Activation_Keys",
+            "program": "${workspaceFolder}/01_Activation_Keys/bin/Debug/net6.0/01_Activation_Keys.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Activation_Keys",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

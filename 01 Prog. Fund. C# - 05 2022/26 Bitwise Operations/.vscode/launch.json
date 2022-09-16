@@ -1,0 +1,106 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 06_Tri_bit_Switch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_06_Tri_bit_Switch",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/06_Tri_bit_Switch/bin/Debug/net6.0/06_Tri_bit_Switch.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/06_Tri_bit_Switch",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 05_Odd_Times",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_05_Odd_Times",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/05_Odd_Times/bin/Debug/net6.0/05_Odd_Times.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/05_Odd_Times",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 04_Bit_Destroyer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_04_Bit_Destroyer",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04_Bit_Destroyer/bin/Debug/net6.0/04_Bit_Destroyer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04_Bit_Destroyer",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_Pth_Bit",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Pth_Bit",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_Pth_Bit/bin/Debug/net6.0/03_Pth_Bit.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Pth_Bit",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 02_Bit_at_osition_1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Bit_at_osition_1",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Bit_at_osition_1/bin/Debug/net6.0/02_Bit_at_osition_1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Bit_at_osition_1",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Binary_Digits_Count",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Binary_Digits_Count",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Binary_Digits_Count/bin/Debug/net6.0/01_Binary_Digits_Count.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Binary_Digits_Count",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

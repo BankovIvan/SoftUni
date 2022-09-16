@@ -1,0 +1,78 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 04_Word_Filter",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_04_Word_Filter",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04_Word_Filter/bin/Debug/net6.0/04_Word_Filter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04_Word_Filter",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_Word_Synonyms",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Word_Synonyms",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_Word_Synonyms/bin/Debug/net6.0/03_Word_Synonyms.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Word_Synonyms",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 02_Odd_Occurrences",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Odd_Occurrences",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Odd_Occurrences/bin/Debug/net6.0/02_Odd_Occurrences.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Odd_Occurrences",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Count_Real_Numbers",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Count_Real_Numbers",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Count_Real_Numbers/bin/Debug/net6.0/01_Count_Real_Numbers.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Count_Real_Numbers",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

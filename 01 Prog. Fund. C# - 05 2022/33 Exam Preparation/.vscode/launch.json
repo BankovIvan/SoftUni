@@ -1,0 +1,58 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_The_Pianist",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_The_Pianist",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_The_Pianist/bin/Debug/net6.0/03_The_Pianist.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_The_Pianist",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 02_Fancy_Barcodes",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Fancy_Barcodes",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Fancy_Barcodes/bin/Debug/net6.0/02_Fancy_Barcodes.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Fancy_Barcodes",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Secret_Chat",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Secret_Chat",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Secret_Chat/bin/Debug/net6.0/01_Secret_Chat.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Secret_Chat",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

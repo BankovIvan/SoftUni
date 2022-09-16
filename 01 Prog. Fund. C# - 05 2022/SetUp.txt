@@ -1,0 +1,46 @@
+===1====================================================
+.NET CLI
+dotnet new console --framework net6.0
+
+dotnet new sln -n 21_Objects_And_Classes
+dotnet new console -o 01_Randomize_Words
+dotnet sln 21_Objects_And_Classes.sln add .\01_Randomize_Words\01_Randomize_Words.csproj
+
+===2====================================================
+namespace _Hello_World
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Numerics;
+    //using System.Linq;
+	//using System.Text.RegularExpressions;
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Hello World!");           
+            Console.ResetColor();
+
+        }
+    }
+}
+
+===3====================================================
+If you don't get the prompt, or if you accidentally dismiss it without selecting Yes, do the following steps to create launch.json and tasks.json:
+Select Run > Add Configuration from the menu.
+Select .NET 5+ and .NET Core at the Select environment prompt.
+
+===4====================================================
+dotnet run
+
+===5====================================================
+Debug:
+Open .vscode/launch.json.
+"console": "integratedTerminal",
+

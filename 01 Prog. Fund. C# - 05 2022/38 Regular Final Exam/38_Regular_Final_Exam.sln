@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Decrypting_Commands", "01_Decrypting_Commands\01_Decrypting_Commands.csproj", "{2A0EA0DA-2747-4B5E-8CE3-B79749D20CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Boss_Rush", "02_Boss_Rush\02_Boss_Rush.csproj", "{96492202-BA87-4E75-9054-F28B0EF869BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Followers", "03_Followers\03_Followers.csproj", "{6E4DC771-7874-4695-B910-6D744AEA8554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A0EA0DA-2747-4B5E-8CE3-B79749D20CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0EA0DA-2747-4B5E-8CE3-B79749D20CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0EA0DA-2747-4B5E-8CE3-B79749D20CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0EA0DA-2747-4B5E-8CE3-B79749D20CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96492202-BA87-4E75-9054-F28B0EF869BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96492202-BA87-4E75-9054-F28B0EF869BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96492202-BA87-4E75-9054-F28B0EF869BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96492202-BA87-4E75-9054-F28B0EF869BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4DC771-7874-4695-B910-6D744AEA8554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4DC771-7874-4695-B910-6D744AEA8554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4DC771-7874-4695-B910-6D744AEA8554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4DC771-7874-4695-B910-6D744AEA8554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

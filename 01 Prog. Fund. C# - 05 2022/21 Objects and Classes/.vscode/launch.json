@@ -1,0 +1,129 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 07_Vehicle_Catalogue",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_07_Vehicle_Catalogue",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/07_Vehicle_Catalogue/bin/Debug/net6.0/07_Vehicle_Catalogue.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/07_Vehicle_Catalogue",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 06_Store_Boxes",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_06_Store_Boxes",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/06_Store_Boxes/bin/Debug/net6.0/06_Store_Boxes.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/06_Store_Boxes",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 05_Students2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_05_Students2",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/05_Students2/bin/Debug/net6.0/05_Students2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/05_Students2",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 04_Students",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_04_Students",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04_Students/bin/Debug/net6.0/04_Students.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04_Students",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Randomize_Words/bin/Debug/net6.0/01_Randomize_Words.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Randomize_Words",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (02)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build02",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Big_Factorial/bin/Debug/net6.0/02_Big_Factorial.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Big_Factorial",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_Songs",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Songs",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_Songs/bin/Debug/net6.0/03_Songs.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Songs",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            //"console": "internalConsole",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
