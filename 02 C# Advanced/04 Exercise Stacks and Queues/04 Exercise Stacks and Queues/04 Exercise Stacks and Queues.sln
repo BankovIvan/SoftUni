@@ -13,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Fast Food", "04 Fast Foo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Fashion Boutique", "05 Fashion Boutique\05 Fashion Boutique.csproj", "{C11882F2-B14A-4DFB-A3D5-889B8E99BE76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Songs Queue", "06 Songs Queue\06 Songs Queue.csproj", "{0017CFE2-226B-42CB-A76D-FDB6E2CDE945}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Truck Tour", "07 Truck Tour\07 Truck Tour.csproj", "{0FE910D4-E107-44FC-8295-78DDF2E04D45}"
 EndProject
