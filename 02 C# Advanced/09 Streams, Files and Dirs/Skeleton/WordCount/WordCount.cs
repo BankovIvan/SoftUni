@@ -22,9 +22,11 @@
 
             using (StreamReader strWords = new StreamReader(wordsFilePath))
             {
-                //var text = "'Oh, you can't help that,' said the Cat: 'we're all mad here. I'm mad. You're mad.'";
-                //var punctuation = text.Where(Char.IsPunctuation).Distinct().ToArray();
-                //var words = text.Split().Select(x => x.Trim(punctuation));
+            //var text = "'Oh, you can't help that,' said the Cat: 'we're all mad here. I'm mad. You're mad.'";
+            //var punctuation = text.Where(Char.IsPunctuation).Distinct().ToArray();
+            //var words = text.Split().Select(x => x.Trim(punctuation));
+
+            //https://stackoverflow.com/questions/16725848/how-to-split-text-into-words
 
                 string sAllText = strWords.ReadToEnd().ToLower();
                 char[] punctuation = sAllText.Where(Char.IsPunctuation).Distinct().ToArray();
