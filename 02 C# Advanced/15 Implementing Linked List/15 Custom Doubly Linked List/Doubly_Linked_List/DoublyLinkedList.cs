@@ -1,10 +1,11 @@
 ﻿namespace CustomDoublyLinkedList
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
     using System.Text;
 
-    internal class DoublyLinkedList
+    internal class DoublyLinkedList : IEnumerable<ListNode>
     {
         private ListNode head;
         private ListNode tail;
@@ -121,7 +122,21 @@
             }
 
             return ret;
-        } 
+        }
 
+        public IEnumerator<ListNode> GetEnumerator()
+        {
+            var currentNode = this.head;
+            while (currentNode != null)
+            {
+                yield return currentNode;
+                currentNode = currentNode.NextNode;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
     }
 }

@@ -38,6 +38,18 @@
             Console.WriteLine("COUNT == {0}", lstDoubly.Count);
             Console.WriteLine(String.Join(", ", lstDoubly.ToArray()));
 
+            lstDoubly.AddFirst(3);
+            lstDoubly.AddFirst(2);
+            lstDoubly.AddFirst(1);
+            lstDoubly.AddLast(98);
+            lstDoubly.AddLast(99);
+            lstDoubly.AddLast(100);
+
+            Console.ForegroundColor = ConsoleColor.Green;
+            lstDoubly.ForEach(x => Console.WriteLine(x));
+            Console.ResetColor();
+
+
         }
     }
 }
