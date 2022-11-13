@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 02_Cars",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Cars",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Cars/bin/Debug/netcoreapp3.1/02_Cars.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Cars",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Shapes",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Shapes",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Shapes/bin/Debug/netcoreapp3.1/01_Shapes.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Shapes",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

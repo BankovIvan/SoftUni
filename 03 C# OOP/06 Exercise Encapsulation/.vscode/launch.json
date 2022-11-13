@@ -1,0 +1,90 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 05_Football_Team_Generator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_05_Football_Team_Generator",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/05_Football_Team_Generator/bin/Debug/netcoreapp3.1/05_Football_Team_Generator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/05_Football_Team_Generator",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 04_Pizza_Calories",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_04_Pizza_Calories",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04_Pizza_Calories/bin/Debug/netcoreapp3.1/04_Pizza_Calories.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04_Pizza_Calories",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_Shopping_Spree",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Shopping_Spree",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_Shopping_Spree/bin/Debug/netcoreapp3.1/03_Shopping_Spree.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Shopping_Spree",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Class_Box_Data",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Class_Box_Data",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Class_Box_Data/bin/Debug/netcoreapp3.1/01_Class_Box_Data.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Class_Box_Data",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) Animal Farm",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_AnimalFarm",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/AnimalFarm/AnimalFarm/bin/Debug/netcoreapp3.1/AnimalFarm.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/AnimalFarm/AnimalFarm",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

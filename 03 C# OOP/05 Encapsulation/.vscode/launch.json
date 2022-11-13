@@ -1,0 +1,74 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 04_First_and_Reserve_Team",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_04_First_and_Reserve_Team",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/04_First_and_Reserve_Team/bin/Debug/netcoreapp3.1/04_First_and_Reserve_Team.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/04_First_and_Reserve_Team",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 03_Validation_of_Data",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_03_Validation_of_Data",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/03_Validation_of_Data/bin/Debug/netcoreapp3.1/03_Validation_of_Data.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/03_Validation_of_Data",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 02_Salary_Increased",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_02_Salary_Increase",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/02_Salary_Increase/bin/Debug/netcoreapp3.1/02_Salary_Increase.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/02_Salary_Increase",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console) 01_Sort_Persons",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build_01_Sort_Persons",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/01_Sort_Persons/bin/Debug/net6.0/PersonsInfo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/01_Sort_Persons",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
