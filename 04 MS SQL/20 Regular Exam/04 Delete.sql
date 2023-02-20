@@ -36,15 +36,9 @@ WHERE
 	a.Country IN (SELECT Country FROM Addresses WHERE LEFT(Town, 1) = 'L' GROUP BY Country)
 
 
-/*
 DELETE FROM Addresses
 WHERE
 	--LEFT(Town, 1) = 'L'
 	Country IN (SELECT Country FROM Addresses WHERE LEFT(Town, 1) = 'L' GROUP BY Country)
-*/
 
-
-DELETE FROM Addresses
-WHERE
-	LEFT(Country, 1) = 'L'
 
