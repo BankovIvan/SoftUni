@@ -1,0 +1,31 @@
+========================================
+Connection string
+========================================
+public const string ConnectionString =
+            @"Server=.;Database=MiniORM;MultipleActiveResultSets=true;Integrated Security=true;TrustServerCertificate=True";
+
+
+========================================
+Scaffolding existing DB
+========================================
+Install-Package Microsoft.EntityFrameworkCore.Tools –v 6.0.1
+Install-Package Microsoft.EntityFrameworkCore.SqlServer –v 6.0.1
+Install-Package Microsoft.EntityFrameworkCore.Design -v 6.0.1
+
+Scaffold-DbContext 
+	-Connection "Server=<ServerName>;Database=<DatabaseName>;Integrated Security=True;" 
+	-Provider Microsoft.EntityFrameworkCore.SqlServer
+	-OutputDir Data/Models
+
+Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
+Uninstall-Package Microsoft.EntityFrameworkCore.Design -RemoveDependencies
+
+
+========================================
+Migrating DB
+========================================
+Add-Migration Initial
+Update-Database
+Remove-Migration
+
+
