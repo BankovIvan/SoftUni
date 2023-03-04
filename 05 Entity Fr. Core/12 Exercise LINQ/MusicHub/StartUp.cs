@@ -95,7 +95,7 @@
         {
             StringBuilder ret = new StringBuilder();
 
-            TimeSpan checkTimespan = new TimeSpan(0, 0, duration);
+            TimeSpan checkTimespan = new TimeSpan(duration * TimeSpan.TicksPerSecond);
 
             var songsInfo = context.Songs
                 .Where(s => s.Duration > checkTimespan)
