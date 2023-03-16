@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Web", "FastFood.Core\FastFood.Web.csproj", "{3488DA13-174A-4DD0-994C-DC50045FCE20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587} = {4F8D6D25-A74C-4987-B269-20C6AD64C587}
+		{6D1016CD-1379-477B-8C8A-3954D66633FD} = {6D1016CD-1379-477B-8C8A-3954D66633FD}
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3} = {8691C5EF-1287-4F46-AD13-EFCC56F02CC3}
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4} = {BB6F0165-F136-42AB-93E3-1A4E5E9641E4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Data", "FastFood.Data\FastFood.Data.csproj", "{A1D9CC7E-163C-4025-9857-948E8F44C7FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D1016CD-1379-477B-8C8A-3954D66633FD} = {6D1016CD-1379-477B-8C8A-3954D66633FD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Models", "FastFood.Models\FastFood.Models.csproj", "{BB6F0165-F136-42AB-93E3-1A4E5E9641E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D1016CD-1379-477B-8C8A-3954D66633FD} = {6D1016CD-1379-477B-8C8A-3954D66633FD}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFood.Common", "FastFood.Common\FastFood.Common.csproj", "{6D1016CD-1379-477B-8C8A-3954D66633FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D395FDB9-D7D6-412C-AA09-1056833567F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{32A100D6-DB82-4CAE-99AE-7149D5861973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F34CC2D2-BE39-40D0-87D3-B5732F1E903D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood.Services.Mapping", "FastFood.Services.Mapping\FastFood.Services.Mapping.csproj", "{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood.Services.Data", "FastFood.Services.Data\FastFood.Services.Data.csproj", "{8691C5EF-1287-4F46-AD13-EFCC56F02CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood.Web.ViewModels", "FastFood.Web.ViewModels\FastFood.Web.ViewModels.csproj", "{4F8D6D25-A74C-4987-B269-20C6AD64C587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3488DA13-174A-4DD0-994C-DC50045FCE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3488DA13-174A-4DD0-994C-DC50045FCE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3488DA13-174A-4DD0-994C-DC50045FCE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3488DA13-174A-4DD0-994C-DC50045FCE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D9CC7E-163C-4025-9857-948E8F44C7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D9CC7E-163C-4025-9857-948E8F44C7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D9CC7E-163C-4025-9857-948E8F44C7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D9CC7E-163C-4025-9857-948E8F44C7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1016CD-1379-477B-8C8A-3954D66633FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1016CD-1379-477B-8C8A-3954D66633FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1016CD-1379-477B-8C8A-3954D66633FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1016CD-1379-477B-8C8A-3954D66633FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3488DA13-174A-4DD0-994C-DC50045FCE20} = {32A100D6-DB82-4CAE-99AE-7149D5861973}
+		{A1D9CC7E-163C-4025-9857-948E8F44C7FA} = {D395FDB9-D7D6-412C-AA09-1056833567F2}
+		{BB6F0165-F136-42AB-93E3-1A4E5E9641E4} = {D395FDB9-D7D6-412C-AA09-1056833567F2}
+		{B00DDDF3-DBE4-4DE8-94A1-8A14A3F8BFB5} = {F34CC2D2-BE39-40D0-87D3-B5732F1E903D}
+		{8691C5EF-1287-4F46-AD13-EFCC56F02CC3} = {F34CC2D2-BE39-40D0-87D3-B5732F1E903D}
+		{4F8D6D25-A74C-4987-B269-20C6AD64C587} = {32A100D6-DB82-4CAE-99AE-7149D5861973}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {862DCD7D-6738-42A1-B1BB-4B09D90AAA4B}
+	EndGlobalSection
+EndGlobal
