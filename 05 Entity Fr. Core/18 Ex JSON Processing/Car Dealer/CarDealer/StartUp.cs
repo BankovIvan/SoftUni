@@ -118,22 +118,22 @@
             ///
             /// Query 18. Export Total Sales by Customer
             ///
-            /*
+            
             string ret18 = GetTotalSalesByCustomer(context);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(ret18);
             Console.ResetColor();
-            */
+            
 
             ///
             /// Query 19. Export Sales with Applied Discount
             ///
-
+            /*
             string ret19 = GetSalesWithAppliedDiscount(context);
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(ret19);
             Console.ResetColor();
-            
+            */
 
         }
 
