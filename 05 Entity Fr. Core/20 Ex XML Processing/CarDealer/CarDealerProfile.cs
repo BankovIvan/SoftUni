@@ -45,9 +45,9 @@ namespace CarDealer
                 .ForMember(dst => dst.CarPrices,
                     opt => opt.MapFrom(
                         src => src.IsYoungDriver == true ?
-                            src.Sales.Select(s => ((95 - s.Discount) / 100) * s.Car.PartsCars
+                            src.Sales.Select(s => /* ((95 - s.Discount) / 100) * */ (decimal)0.95 * s.Car.PartsCars
                                 .Sum(pc => pc.Part.Price) )
-                            : src.Sales.Select(s => ((100 - s.Discount) / 100) * s.Car.PartsCars
+                            : src.Sales.Select(s => /* ((100 - s.Discount) / 100) * */ s.Car.PartsCars
                                 .Sum(pc => pc.Part.Price))));
             this.CreateMap<Car, ExportDTO19CarData>();
             this.CreateMap<Sale, ExportDTO19SaleAndDiscount>()

@@ -51,7 +51,7 @@
             modelBuilder.Entity<Product>(e =>
             {
                 e.Property(p => p.Price)
-                    .HasPrecision(18, 5);
+                    .HasPrecision(18, 2);
             });
 
         }

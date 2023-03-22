@@ -458,7 +458,7 @@
                 {
                     Name = exportDTO.Name,
                     BoughtCars = exportDTO.BoughtCars,
-                    SpentMoney = Math.Round(exportDTO.CarPrices.Sum(), 2)
+                    SpentMoney = Math.Round(exportDTO.CarPrices.Sum(), 2, MidpointRounding.ToZero)
                 };
 
                 xmlDTOs.Add(xmlDTO);
