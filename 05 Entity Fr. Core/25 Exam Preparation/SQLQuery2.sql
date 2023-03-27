@@ -1,4 +1,4 @@
-/* use FootballersExam */
+use FootballersExam
 SELECT
 	t.Name AS [Name]
 	, f.Name AS [FootballerName]
