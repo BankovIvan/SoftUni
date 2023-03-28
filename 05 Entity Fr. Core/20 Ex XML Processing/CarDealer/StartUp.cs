@@ -450,6 +450,7 @@
                 .ProjectTo<ExportDTO18SalePrices>(mapper.ConfigurationProvider)
                 .ToArray();
 
+            /*
             List<ExportDTO18SaleByCustomer> xmlDTOs = new List<ExportDTO18SaleByCustomer> ();
 
             foreach (var exportDTO in exportDTOs)
@@ -463,11 +464,19 @@
 
                 xmlDTOs.Add(xmlDTO);
             }
+            */
 
+            List<ExportDTO18SaleByCustomer> xmlDTOs = 
+                mapper.Map<ExportDTO18SaleByCustomer[]>(exportDTOs)
+                .OrderByDescending(x => x.SpentMoney)
+                .ToList();
+
+            /*
             xmlDTOs = xmlDTOs
                 .OrderByDescending(x => x.SpentMoney)
                 //.ThenByDescending(x => x.BoughtCars)
                 .ToList();
+            */
 
             // Helper class from Utilities folder.
             ret = XmlHelper.Serialize<List<ExportDTO18SaleByCustomer>>(xmlDTOs, "customers");

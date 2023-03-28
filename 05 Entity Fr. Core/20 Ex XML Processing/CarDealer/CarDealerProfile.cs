@@ -45,10 +45,14 @@ namespace CarDealer
                 .ForMember(dst => dst.CarPrices,
                     opt => opt.MapFrom(
                         src => src.IsYoungDriver == true ?
-                            src.Sales.Select(s => /* ((95 - s.Discount) / 100) * */ (decimal)0.95 * s.Car.PartsCars
+                            src.Sales.Select(s => (decimal)0.95 * s.Car.PartsCars
                                 .Sum(pc => pc.Part.Price) )
-                            : src.Sales.Select(s => /* ((100 - s.Discount) / 100) * */ s.Car.PartsCars
+                            : src.Sales.Select(s => s.Car.PartsCars
                                 .Sum(pc => pc.Part.Price))));
+            this.CreateMap<ExportDTO18SalePrices, ExportDTO18SaleByCustomer>()
+                .ForMember(dst => dst.SpentMoney,
+                    opt => opt.MapFrom(
+                        src => Math.Round(src.CarPrices.Sum(), 2, MidpointRounding.ToZero)));
             this.CreateMap<Car, ExportDTO19CarData>();
             this.CreateMap<Sale, ExportDTO19SaleAndDiscount>()
                 .ForMember(dst => dst.CAR,
